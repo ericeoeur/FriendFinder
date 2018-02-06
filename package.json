@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ericeoeur/FriendFinder/issues"
   },
-  "homepage": "https://github.com/ericeoeur/FriendFinder#readme"
+  "homepage": "https://github.com/ericeoeur/FriendFinder#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }

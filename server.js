@@ -42,6 +42,18 @@ let friends = [
     }
 ];
 
+// below you need to make your router. which points the server to a series of files.
+// these routes give our server a map of how to respond when users visit or request data 
+// from various URLS 
+
+
+//require("./routing/apiRoutes")(app); 
+require("./routing/htmlRoutes")(app); 
+
+
+
+
+
 
 //this will display the entire variable of friends 
 app.get("/all", function (req, res){
