@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 
 //place variable here to catch data from FriendFinder Arrays
 
-let friends = [
+let booboos = [
     {
         routeName: "matt", 
         name: "Matt",
@@ -56,8 +56,8 @@ require("./routing/htmlRoutes")(app);
 
 
 //this will display the entire variable of friends 
-app.get("/all", function (req, res){
-    res.json(friends);
+app.get("/allfriends", function (req, res){
+    res.json(booboos);
 });
 
 

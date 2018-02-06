@@ -29,9 +29,14 @@ module.exports = function(app) {
     });
 
     //if no matching route was found. 
+    /*
     app.get("*", function (req, res){
         res.sendFile(path.join(__dirname, "../public/home.html")); 
+    });
+    */
 
+    app.use(function(req, res){
+        res.sendFile(path.join(__dirname,"../public/home.html"));
     });
 
 };
