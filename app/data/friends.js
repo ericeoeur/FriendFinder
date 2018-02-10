@@ -3,25 +3,19 @@
 
 let friends = [
     {
-        routeName: "matt", 
         name: "Matt",
-        role: "Partner",
-        birthdate: "1/23/88",
-        city: "Austin, Texas"
+        photo: "Partner",
+        answers: ""
     },
     {
-        routeName: "Viviana", 
         name: "Vivi",
-        role: "Best Friend",
-        birthdate: "11/26/88",
-        city: "Chicago, IL"
+        photo: "Best Friend",
+        answers: ""
     },
     {
-        routeName: "Siena", 
         name: "Siena",
-        role: "Best Friend",
-        birthdate: "5/13/88",
-        city: "San Francisco, California"
+        photo: "Best Friend",
+        answers: ""
     }
 ];
 

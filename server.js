@@ -47,7 +47,7 @@ let booboos = [
 // from various URLS 
 
 
-//require("./routing/apiRoutes")(app); 
+require("./routing/apiRoutes")(app); 
 require("./routing/htmlRoutes")(app); 
 
 
